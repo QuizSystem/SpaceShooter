@@ -10,6 +10,7 @@ public class BGScaler : MonoBehaviour {
 //		Debug.Log (Screen.height);
 		var worldWidth = worldHeight * Screen.width / Screen.height;
 		transform.localScale = new Vector3 (worldWidth, worldHeight, 0);
+
 	}
 
 }
